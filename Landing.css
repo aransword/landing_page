@@ -113,3 +113,22 @@ button {
 .imgs p {
     font-size: 20px;
 }
+
+.login {
+    width: 100%;
+}
+
+.sns {
+    width: 100px;
+    text-align: center;
+}
+
+.sns i {
+    background-color: purple;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    padding-top: 23px;
+    box-sizing: border-box;
+}
