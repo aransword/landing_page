@@ -1,6 +1,5 @@
 .page-top {
     width: 100%;
-    min-height: 700px;
     background: linear-gradient(to bottom, #499add, #4e61c0);
     padding-left: 10%;
     padding-top: 5%;
@@ -12,6 +11,11 @@
     width: 60%;
     padding-right: 20%;
     box-sizing: border-box;
+}
+
+.page-top img {
+    width: 400px;
+    height: auto;
 }
 
 .top-desc h1, .top-desc p{
@@ -175,7 +179,8 @@ button:hover {
     }
 
     .page-top img {
-        max-width: 100%;
+        width: 70%;
+        margin: auto;
     }
 
     .logo-box {
