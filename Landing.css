@@ -108,6 +108,7 @@ button {
     text-align: left;
     padding: 50px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .imgs p {
@@ -131,4 +132,19 @@ button {
     border-radius: 40px;
     padding-top: 23px;
     box-sizing: border-box;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0px solid white;
+    transition: all 0.5s;
+}
+
+.overlay:hover {
+    border: 30px solid white;
 }
