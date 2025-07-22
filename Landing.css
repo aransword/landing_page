@@ -79,3 +79,37 @@ button {
     color: white;
 }
 
+.page-bottom {
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.page-bottom p, .page-bottom h3 {
+    margin: 0;
+}
+
+.img-box {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgs {
+    width: 50%;
+    max-width: 700px;
+    height: 467px;
+    color: white;
+    text-align: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.imgs p {
+    font-size: 20px;
+}
