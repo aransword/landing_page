@@ -1,0 +1,30 @@
+.page-top {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, blue, purple);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    display: flex;
+}
+
+.top-desc {
+    width: 60%;
+    padding-right: 30%;
+    box-sizing: border-box;
+}
+
+.top-desc h1, p{
+    color: white;
+}
+
+.top-desc button {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
