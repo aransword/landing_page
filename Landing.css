@@ -1,7 +1,7 @@
 .page-top {
     width: 100%;
     min-height: 700px;
-    background: linear-gradient(to bottom, blue, purple);
+    background: linear-gradient(to bottom, #499add, #4e61c0);
     padding-left: 10%;
     padding-top: 5%;
     display: flex;
@@ -46,7 +46,7 @@ button:hover {
 .page-logo {
     width: 100%;
     min-height: 400px;
-    background-color: purple;
+    background-color: #4e61c0;
 }
 
 .logo-top {
@@ -77,7 +77,7 @@ button:hover {
     border-radius: 50px;
     padding-top: 25px;
     box-sizing: border-box;
-    color: purple;
+    color: #4e61c0;
 }
 
 .logos h3, .logos p{
@@ -130,7 +130,7 @@ button:hover {
 }
 
 .sns i {
-    background-color: purple;
+    background-color: #4e61c0;
     color: white;
     width: 80px;
     height: 80px;
